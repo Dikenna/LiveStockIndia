@@ -37,7 +37,6 @@ public class LiveStockInfo {
 				
 				store.addStock(name, price);
 				System.out.println("Name: " + name + "    Price: " + price);
-				break;
 			}
 			line = buff.readLine();
 		}
